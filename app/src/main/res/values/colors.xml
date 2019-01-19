@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+    <!-- General App Color -->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorAccent">#0D47A1</color>
+
+    <!-- Input Text Color -->
+    <color name="colorEditTextBackground">#fafafa</color>
+    <color name="colorEditTextContour">#82bdbdbd</color>
+
+    <!-- Text Color -->
+    <color name="colorTextVeryLight">#FFFFFF</color>
+    <color name="colorTextLight">#929292</color>
+    <color name="colorTextDark">#494949</color>
+
 </resources>
