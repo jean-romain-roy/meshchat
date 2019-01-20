@@ -87,6 +87,7 @@ public class Activity_Forum extends Activity {
         pairedListView.setAdapter(mPairedDevicesArrayAdapter);
         pairedListView.setOnItemClickListener(mDeviceClickListener);
 
+
         // Find and set up the ListView for newly discovered devices
         newDevicesListView.setAdapter(mNewDevicesArrayAdapter);
         newDevicesListView.setOnItemClickListener(mDeviceClickListener);
@@ -159,10 +160,6 @@ public class Activity_Forum extends Activity {
         mNewDevicesArrayAdapter.clear();
         devicesMAC = new HashSet();
 
-        // Indicate scanning in the title
-        setProgressBarIndeterminateVisibility(true);
-        setTitle(R.string.scanning);
-
         makeVisible();
 
         // If we're already discovering, stop it
@@ -216,8 +213,6 @@ public class Activity_Forum extends Activity {
                 }
             // When discovery is finished, change the Activity title
             } else if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED.equals(action)) {
-                setProgressBarIndeterminateVisibility(false);
-                setTitle(R.string.select_device);
                 if (mNewDevicesArrayAdapter.getCount() == 0) {
                     String noDevices = getResources().getText(R.string.none_found).toString();
                     Toast.makeText(getApplicationContext(), noDevices, Toast.LENGTH_SHORT).show();
