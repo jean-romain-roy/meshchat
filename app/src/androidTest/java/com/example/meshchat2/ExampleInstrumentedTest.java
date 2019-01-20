@@ -1,4 +1,4 @@
-package com.example.meshchat;
+package com.example.meshchat2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.meshchat", appContext.getPackageName());
+        assertEquals("com.example.meshchat2", appContext.getPackageName());
     }
 }

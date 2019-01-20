@@ -1,4 +1,4 @@
-package com.example.meshchat;
+package com.example.meshchat2;
 
 import org.junit.Test;
 
