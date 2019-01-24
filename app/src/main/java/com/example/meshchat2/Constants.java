@@ -30,7 +30,7 @@ public class Constants {
 
 
     // Name for the SDP record when creating server socket
-    public static final String NAME = "Activity_Convo";
+    public static final String NAME = "Fragment_Convo";
 
     // Unique UUID for this application
     public static final UUID MY_UUID = UUID.fromString("fa87c0d0-afac-11de-8a39-0800200c9a66");

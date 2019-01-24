@@ -56,7 +56,7 @@ public class BluetoothChatService {
 
 
     /**
-     * Constructor. Prepares a new Activity_Convo session.
+     * Constructor. Prepares a new Fragment_Convo session.
      * @param context  The UI Activity Context
      * @param handler  A Handler to send messages back to the UI Activity
      */

@@ -8,35 +8,18 @@
     </style>
 
     <!-- EditTexts -->
-    <style name="myAppTheme.EditTextLight" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorControlActivated">@color/colorTextDark</item>
-        <item name="editTextBackground">@drawable/textinputborder</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:textSize">22sp</item>
-        <item name="android:maxLines">1</item>
-    </style>
+    <style name="AppTheme.EditTextDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorTextDark</item>
+        <item name="colorPrimaryDark">@color/colorTextDark</item>
+        <item name="colorAccent">@color/colorTextDark</item>
 
-    <style name="myAppTheme.EditTextInputSearch" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/colorTextDark</item>
         <item name="colorControlActivated">@color/colorTextDark</item>
-        <item name="editTextBackground">@drawable/textinputborder</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:textSize">28sp</item>
-        <item name="android:maxLines">1</item>
+        <item name="colorControlHighlight">@color/colorTextDark</item>
     </style>
 
     <!-- Buttons -->
-    <style name="myAppTheme.ButtonsContrast" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorButtonNormal">@color/colorPrimary</item>
-        <item name="android:textColor">@color/colorTextDark</item>
-        <item name="android:textSize">28sp</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:paddingBottom">16dp</item>
-        <item name="android:paddingTop">16dp</item>
-        <item name="android:paddingRight">32dp</item>
-        <item name="android:paddingLeft">32dp</item>
-    </style>
-
-    <style name="myAppTheme.ButtonsNormal" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme.ButtonsNormal" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorButtonNormal">@color/colorAccent</item>
         <item name="android:textColor">@color/colorTextVeryLight</item>
         <item name="android:textSize">28sp</item>
@@ -47,34 +30,14 @@
         <item name="android:paddingLeft">32dp</item>
     </style>
 
-    <style name="myAppTheme.ButtonsKeyboard" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorButtonNormal">@color/colorPrimary</item>
-        <item name="android:textColor">@color/colorTextDark</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textAllCaps">false</item>
-    </style>
-
-
     <!-- Keyboard -->
-    <style name="myAppTheme.SpaceBarButton" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorButtonNormal">@color/colorPrimary</item>
-    </style>
 
 
     <!-- Progress Bar -->
-    <style name="myAppTheme.ProgressBar" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
 
 
     <!-- Radio Buttons -->
 
     <!-- Toolbar -->
-    <style name="myAppTheme.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:background">@color/colorTextLight</item>
-        <item name="android:textColorPrimary">@color/colorPrimary</item>
-        <item name="android:textColorSecondary">@color/colorPrimary</item>
-        <item name="android:homeAsUpIndicator">@color/colorPrimary</item>
-    </style>
 
 </resources>

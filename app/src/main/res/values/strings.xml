@@ -14,31 +14,24 @@
 -->
 
 <resources>
+
     <string name="app_name">Mesh Chat</string>
 
-    <!-- Login Page -->
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="button_signin">Sign In</string>
+    <!-- Forum Page -->
+    <string name="search">Search...</string>
 
-    <!--  Activity_Convo -->
+    <!-- Login Page -->
+
+    <!--  Fragment_Convo -->
     <string name="send">Send</string>
     <string name="not_connected">You are not connected to a device</string>
-    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
     <string name="title_connecting">Connecting...</string>
     <string name="title_connected_to">Connected: </string>
     <string name="title_not_connected">Not Connected</string>
 
-    <!--  Activity_Forum -->
-    <string name="scanning">Scanning for devices...</string>
-    <string name="select_device">Select a device to connect</string>
+    <!--  Fragment_AddDevice -->
     <string name="none_paired">No devices have been paired</string>
     <string name="none_found">No devices found</string>
-    <string name="title_paired_devices">Paired Devices</string>
-    <string name="title_other_devices">Other Available Devices</string>
-    <string name="button_scan">Scan for devices</string>
 
     <!-- Options Menu -->
-    <string name="connect">Connect a device</string>
-    <string name="discoverable">Make discoverable</string>
 </resources>
